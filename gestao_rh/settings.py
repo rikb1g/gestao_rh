@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.empresas.apps.EmpresasConfig',
     'apps.funcionarios.apps.FuncionariosConfig',
-    'apps.departamentos.apps.DepartamentosConfig'
+    'apps.departamentos.apps.DepartamentosConfig',
+    'apps.documentos.apps.DocumentosConfig',
+    'apps.registo_hora_extra.apps.RegistoHoraExtraConfig',
+
 ]
 
 MIDDLEWARE = [
