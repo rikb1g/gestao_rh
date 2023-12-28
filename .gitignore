@@ -1,4 +1,5 @@
 .idea
 *.sqlite3
 venv
-gestao_rh/__pychache
+*.pyc
+gestao_rh/__pycaceh__/
