@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f713e837-ffbf-436c-94c8-ec2096b4de9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Gestao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0002_rename_nome_documento_descricao_documento_pertence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0003_alter_documento_pertence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/empresas/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/0002_funcionario_departamentos_funcionario_empresa_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0002_rename_nome_registohoraextra_motivo_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao_rh/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao_rh/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao_rh/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao_rh/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2cvI5mI7DQ4sVsFPA79ET5aODz3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.makemigrations.executor": "Run",
+    "Python.migrate.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.runserver.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/bootstrap" />
+      <recent name="$PROJECT_DIR$/apps" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.runserver">
+    <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="Gestao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Gestao)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate" type="PythonConfigurationType" factoryName="Python">
+      <module name="Gestao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Gestao)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="Gestao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Gestao)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.runserver" />
+      <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.migrate" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f713e837-ffbf-436c-94c8-ec2096b4de9a" name="Changes" comment="" />
+      <created>1708985446431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708985446431</updated>
+    </task>
+    <servers />
+  </component>
+</project>

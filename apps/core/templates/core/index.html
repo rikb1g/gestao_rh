@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class="row">
+  <div class="col-sm">
+    One of three column
+  </div>
+  <div class="col-sm">
+    ola {{ usuario.funcionario }}
+  <a href="{% url 'list_funcionarios' %}">Gerir funcionários</a>
+  </div>
+  <div class="col-sm">
+  <a href="#" id="logout-link">Logout</a>
+
+  {% if usuario.funcionario.empresa%}
+
+  <a href=" {% url 'edit_empresa' usuario.funcionario.empresa.id %}">Editar Empresa</a>
+  {% else %}
+  <a href="{% url 'criar_empresa' %}">Criar Empresa</a>
+  {% endif%}
+  </div>
+</div>
+
+<script>
+document.getElementById('logout-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do link
+    fetch("{% url 'logout' %}", {
+        method: 'POST',
+        headers: {
+            'X-CSRFToken': '{{ csrf_token }}' // Inclui o token CSRF no cabeçalho da solicitação
+        }
+    }).then(function() {
+        // Redireciona para a página de login após o logout
+        window.location.href = "{% url 'login' %}";
+    });
+});
+</script>
+
+{% endblock %}
