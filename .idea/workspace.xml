@@ -5,71 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f713e837-ffbf-436c-94c8-ec2096b4de9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Gestao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/departamentos/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0002_rename_nome_documento_descricao_documento_pertence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/0003_alter_documento_pertence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/documentos/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/empresas/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/0002_funcionario_departamentos_funcionario_empresa_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionarios/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0002_rename_nome_registohoraextra_motivo_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao_rh/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao_rh/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao_rh/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao_rh/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/templates/departamentos/departamento_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/templates/departamentos/departamento_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/templates/departamentos/departamento_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/departamentos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/templates/documentos/documento_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/documentos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/templates/funcionarios/funcionario_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/templates/funcionarios/funcionario_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionarios/templates/funcionarios/funcionario_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/templates/registo_hora_extra/registohoraextra_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/templates/registo_hora_extra/registohoraextra_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/templates/registo_hora_extra/registohoraextra_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/registo_hora_extra/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/departamentos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/departamentos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/departamentos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/departamentos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/documentos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documentos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/documentos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documentos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/empresas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/empresas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionarios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionarios/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionarios/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionarios/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/0002_rename_nome_registohoraextra_motivo_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registo_hora_extra/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao_rh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao_rh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +102,56 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rikb1g&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="new" />
+                    <option name="lastUsedInstant" value="1708991223" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1708991222" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4b40607e-840c-4e65-bef6-78e74b3dcd77" />
+        <option name="url" value="https://github.com/rikb1g/gestao_rh.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2cvI5mI7DQ4sVsFPA79ET5aODz3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,24 +160,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.makemigrations.executor": "Run",
-    "Python.migrate.executor": "Run",
-    "Python.models.executor": "Run",
-    "Python.runserver.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.makemigrations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.migrate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runserver.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/bootstrap" />
       <recent name="$PROJECT_DIR$/apps" />
-      <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps/documentos/templates" />
+      <recent name="$PROJECT_DIR$/apps/funcionarios/templates" />
+      <recent name="$PROJECT_DIR$/apps/funcionarios/templates/funcionarios" />
+      <recent name="$PROJECT_DIR$/static/bootstrap" />
     </key>
   </component>
   <component name="RunManager" selected="Python.runserver">
@@ -191,15 +252,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.runserver" />
       <item itemvalue="Python.makemigrations" />
       <item itemvalue="Python.migrate" />
+      <item itemvalue="Python.runserver" />
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -212,6 +273,30 @@
       <option name="presentableId" value="Default" />
       <updated>1708985446431</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708991179015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708991179015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/documentos/views.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

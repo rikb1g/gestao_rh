@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<form method="post" enctype="multipart/form-data">
+     {% csrf_token %}
+
+    {{ form }}
+
+    {% if form.errors %}
+    <div class="alert alert-danger">
+        <ul>
+            {% for field, error_list in form.errors.items %}
+                {% for error in error_list %}
+                    <li>{{ field|title }}: {{ error }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <button type="submit" class="btn btn-primary">Gravar</button>
+</form>
+
+{% endblock %}

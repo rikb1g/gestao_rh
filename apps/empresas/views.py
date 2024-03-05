@@ -5,7 +5,7 @@ from .models import Empresa
 
 
 class EmpresaCreate(CreateView):
-    model = Empresa
+    model = Empresa                     
     fields = ['nome']
 
     def form_valid(self, form):
@@ -22,4 +22,4 @@ class EmpresaEdit(UpdateView):
 
 class CriarEmpresa(UpdateView):
     model = Empresa
-    fields = ['nome']
+    fields = ['nome']   

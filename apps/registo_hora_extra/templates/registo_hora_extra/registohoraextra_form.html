@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+
+<form method="post">
+     {% csrf_token %}
+
+    {{ form }}
+
+    <button type="submit" class="btn btn-primary">Gravar</button>
+</form>
+    {%  if object %}
+<a href="{% url 'delete_hora_extra' object.id %}" class="btn btn-danger">Eliminar</a>
+
+        {% endif %}
+{% endblock %}
